@@ -16,6 +16,7 @@ class Item(BaseModel):
 items_db: List[Item] = [
     Item(id=1, nombre="Muñeca", descripcion="muñeca bonita", precio=12000.0, disponible=True),
     Item(id=2, nombre="Carrito", descripcion="A control remoto", precio=7500.0, disponible=False),
+    Item(id=3, nombre="Carrito2", descripcion="carro verde", precio=7500.0, disponible=True),
 ]
 
 @app.get("/")
